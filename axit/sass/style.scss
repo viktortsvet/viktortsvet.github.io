@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+@import 'navigation';
+@import 'header';
+@import 'social';
+@import 'tabs';
+@import 'sub';
+@import 'standard';
+@import 'awesome';
+@import 'pricing';
+@import 'customers';
+@import 'design';
+@import 'contacts';
+@import 'footer';
+@import 'media';
