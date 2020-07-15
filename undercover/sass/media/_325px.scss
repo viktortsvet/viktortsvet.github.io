@@ -1,0 +1,27 @@
+@media (max-width: 325px) {
+    .portfolio__wrapper {
+        padding: 0;
+    }
+    .header__design-team {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer__links {
+        display: flex;
+    }
+    .menu-search {
+        padding: 0 0px 0 10px;
+        margin-top: 250px;
+        margin-left: -65px;
+    }
+    .icon-search {
+        top: 263px;
+    }
+    .modalSign button {
+        width: 83px;
+        height: 58px;
+        font-size: 15px;
+    }
+}
