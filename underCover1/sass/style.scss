@@ -1,0 +1,31 @@
+@import './styles/normalize';
+@import './styles/fonts';
+@import './styles/colors';
+@import './styles/animations';
+
+
+.container {
+    max-width: 1697px;
+    margin: auto;
+}
+
+body {
+    background-color: $main-background;
+}
+
+
+@import './styles/tags';
+
+@import './styles/modalMenu';
+@import './styles/modalSign';
+@import './styles/sign-up';
+
+@import './styles/gradient';
+
+@import './styles/header';
+@import './styles/services';
+@import './styles/portfolio';
+@import './styles/feedbacks';
+@import './styles/contacts';
+@import './styles/footer';
+@import './media/media';

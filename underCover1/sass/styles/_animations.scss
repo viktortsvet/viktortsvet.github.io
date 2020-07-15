@@ -1,0 +1,108 @@
+@keyframes showUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes showDown {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+
+.showUp {
+    animation: showUp 1s forwards linear;
+}
+
+.showDown {
+    animation: showDown 1s forwards linear;
+}
+
+
+@keyframes fadeFromUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -150%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%)
+    }
+}
+
+.fadeFromUp {
+    animation: fadeFromUp 1s forwards linear;
+}
+
+
+@keyframes fadeIntoUp {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%)
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -150%);
+    }
+}
+
+.fadeIntoUp {
+    animation: fadeIntoUp 1s forwards linear;
+}
+
+@keyframes fadeOutLeft {
+    from {
+        left: -50%;
+        opacity: 0;
+    }
+    to {
+        left: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        left: 50%;
+        opacity: 1;
+    }
+    to {
+        left: -50%;
+        opacity: 0;
+    }
+}
+
+.fadeOutLeft {
+    animation: fadeOutLeft 1s forwards linear;
+}
+
+.fadeInLeft {
+    animation: fadeInLeft 1s forwards linear;
+}
+
+
+@keyframes tabShowUp {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.tabShowUp {
+    animation: tabShowUp 1s forwards linear;
+}

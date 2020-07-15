@@ -1,0 +1,29 @@
+.services {
+    min-height: 964px;
+    padding: 50px 0 50px 0;
+    background-color: $main-background;
+    &__block {
+        margin-top: 62px;
+        max-width: 1305px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tabs {
+        width: 479px;
+    }
+    &__tab {
+        cursor: pointer;
+        display: inline;
+        
+    }
+    &__tab-descr {
+        text-transform: initial;
+        font-size: 20px;
+    }
+}
+
+.active {
+    color: #b69b67;
+    font-size: 60px;
+    border-top: 1px solid #b69b67;
+}
