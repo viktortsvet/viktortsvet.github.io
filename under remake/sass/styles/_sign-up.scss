@@ -1,0 +1,15 @@
+.Sign-Up {
+    display: none;
+}
+
+.sign-upBtns {
+    display: flex;
+    justify-content: space-between;
+    input {
+        width: 487px;
+        margin: 0;
+    }
+    button {
+        margin: 0;
+    }
+}

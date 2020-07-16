@@ -1,0 +1,93 @@
+.modalSign {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 846px;
+    min-height: 675px;
+    padding: 49px 50px 50px 50px;
+    border: 1px solid #454545;
+    background-color:$main-background;
+    z-index: 20;
+}
+
+.signUsing {
+    text-align: center;
+    margin-top: 49px;
+}
+
+.btns {
+    display: flex;
+    margin: auto;
+    margin-top: 24px;
+    justify-content: space-between;
+    max-width: 746px;
+}
+
+button {
+    width: 228px;
+    height: 73px;
+    background-color: inherit;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.facebook {
+    border: 1px solid $facebook-color;
+    color: $facebook-color;
+    &:hover {
+        color: #000000;
+        background-color: $facebook-color;
+    }
+}
+
+.google {
+    border: 1px solid $google-color;
+    color: $google-color;
+    &:hover {
+        color: #000000;
+        background-color: $google-color;
+    }
+}
+
+.twitter {
+    border: 1px solid $twitter-color;
+    color: $twitter-color;
+    &:hover {
+        color: #000000;
+        background-color: $twitter-color;
+    }
+}
+
+.signForm {
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    max-width: 746px;
+    input {
+        display: block;
+        margin: auto;
+        padding: 0 27px 0 27px;
+        margin-bottom: 24px;
+        width: 100%;
+        height: 73px;
+        background-color: $main-background;
+        border: 1px solid #b4b4b4;
+    }
+}
+
+.signBtn {
+    display: block;
+    margin: auto;
+    width: 228px;
+    height: 73px;
+    color: $main-hover;
+    background-color: $main-background;
+    border: 1px solid $main-hover;
+    text-transform: uppercase;
+    &:hover {
+        color: #303030;
+        background-color: $main-hover;
+    }
+}

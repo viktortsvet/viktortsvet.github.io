@@ -1,0 +1,110 @@
+.portfolio {
+    min-height: 964px;
+    padding: 10px 0 10px 0;
+    background-color: $main-background;
+    &__select {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        height: 50px;
+        width: 215px;
+        border: none;
+        border-bottom: 1px solid #454545;
+        background-color: $main-background;
+        color: #b4b4b4;
+        font-family: 'Ubuntu Light';
+        font-size: 30px;
+        font-weight: 300;
+        outline: none;
+        appearance: none;
+        text-align: center;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+    &__wrapper {
+        padding: 0px 88px 0 89px;
+    }
+    &__items {
+        max-width: 1520px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    &__item {
+        position: relative;
+        width: 745px;
+        height: 270px;
+        overflow: hidden;
+        &:hover {
+            .portfolio__item-descr {
+                right: -100%;  
+            }
+            .portfolio__btn {
+                display: block;
+            }
+        }
+        &:first-child {
+            background-image: url('../img/port1.png');
+            margin-bottom: 30px;  
+        }
+        &:nth-child(2) {
+            background-image: url('../img/port2.png');
+            margin-bottom: 30px;
+        }
+        &:nth-child(3) {
+            background-image: url('../img/port3.png');
+        }
+        &:last-child {
+            background-image: url('../img/port4.png');
+        }
+    }
+    &__item-descr {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px 25px 28px 25px;
+        width: 358px;
+        height: 270px;
+        background-color: #b69b67;
+        transition: 0.5s all;
+    }
+    &__item-text {
+        font-family: "Ubuntu Medium";
+        font-size: 15px;
+        font-weight: 500;
+        color: #303030;
+        margin-top: 69px;
+        text-transform: initial;
+        span {
+            display: block;
+            font-family: "Ubuntu Regular";
+            font-style: italic;
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+    &__btn {
+        display: none;
+        width: 307px;
+        height: 71px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid $main-hover;
+        color: #303030;
+        font-family: 'Ubuntu Regular';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        z-index: 5;
+        transition: 0.5s all;
+        &:hover {
+            background-color: $main-hover;
+        }
+    }
+}

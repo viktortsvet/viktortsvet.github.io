@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .feedbacks__person-content {
+        max-width: 507px;
+    }
+    .feedbacks__person-block:after {
+        max-width: 499px;
+    }
+    .feedbacks__name {
+        font-size: 26px;
+    }
+    .services__tabs {
+        width: 585px;
+    }
+    img {
+        max-width: 570px;
+    }
+    .feedbacks__wrapper {
+        padding: 0 25px 0 39px;
+    }
+    .portfolio {
+        &__item-descr {
+            width: 235px;
+        }
+        &__item-header {
+            font-size: 23px;
+        }
+    }
+    .gradient-header {
+        font-size: 34px;
+    }
+    .menu-search {
+        max-width: 160px;
+    }
+    .footer {
+        &__links {
+            display: grid;
+            grid-template-columns: repeat(5, 70px);
+        }
+    }
+    .contacts__item-content {
+        font-size: 20px;
+    }
+}
