@@ -1,0 +1,39 @@
+.header {
+    min-height: 990px;
+    padding: 84px 0 84px 0;
+    &__design-team {
+        text-align: center;
+        margin-left: 300px;
+    }
+    &__scroll {
+        color: #454545;
+        margin-top: 166px;
+        text-align: center;
+    }
+    &__hamburger {
+        width: 82px;
+        height: 82px;
+        border: 1px solid #454545;
+        cursor: pointer;
+        span {
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+            width: 52px;
+            border: 1px solid #b4b4b4;
+        }
+    }
+    &__hamburger-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__spans {
+        margin-top: 29px;
+    }
+    &__lamp {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

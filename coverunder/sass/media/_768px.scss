@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .feedbacks {
+        &__person-comment {
+            font-size: 26px;
+        }
+        &__person-content {
+            max-width: 634px;
+            flex-direction: column;
+        }
+        &__person-block {  
+            &:after {
+                max-width: 630px;
+            }
+        }
+    }
+    .contacts {
+        &__item-content {
+            font-size: 23px;
+        }
+    }
+    .footer {
+        &__links {
+            padding-left: 0;
+            flex-wrap: wrap;
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .modal-stairs {
+        width: 150px;
+        height: 150px;
+    }
+
+    .menu-links>li a, .menu-send>li a {
+        font-size: 16px;
+    }
+
+    .menu-search {
+        max-width: 279px;
+    }
+
+    .modal-stairs {
+        margin-top: 120px;
+        margin-left: -95px;
+    }
+    .signForm input {
+        height: 50px;
+        margin-bottom: 6px;
+    }
+    .signBtn {
+        height: 60px;
+    }
+}

@@ -1,0 +1,79 @@
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 45px;
+    }
+    .feedbacks {
+        &__items {
+            flex-direction: column;
+        }
+        &__contacts {
+            margin: auto;
+        }
+    }
+    .contacts {
+        &__items {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        &__item-content {
+            margin: auto;
+            margin-bottom: 15px;
+        }
+    }
+    .menu-search {
+        max-width: 320px;
+        font-size: 18px;
+    }
+
+    .menu-links > li a, .menu-send>li a {
+        font-size: 20px;
+    }
+
+    .modalSign h2 {
+        font-size: 38px;
+    }
+
+    .signUsing {
+        font-size: 20px;
+    }
+
+    .gradient-header {
+        font-size: 45px;
+    }
+
+    .active {
+        font-size: 32px;
+    }
+
+    .services {
+        &__tab {
+            font-size: 23px;
+        }
+        &__tab-content {
+            margin: auto;
+        }
+        &__tab-descr {
+            text-align: center;
+        }
+        &__tabs {
+            width: 600px;
+            padding-left: 0;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        &__block {
+            flex-direction: column;
+        }
+    }
+    .sign-upBtns {
+        flex-wrap: wrap;
+        justify-content: center;
+        button {
+            margin: 10px auto;
+        }
+        input {
+            width: 100%;
+        }
+    }
+}

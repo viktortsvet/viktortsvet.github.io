@@ -1,0 +1,50 @@
+.contacts {
+    min-height: 955px;
+    padding: 49px 0 0 0;
+    background-color: $main-background;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 100px;
+        max-width: 1344px;
+    }
+    &__item-header {
+        color: #b69b67;
+        font-family: 'Ubuntu Light';
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        &:before {
+            content: '';
+            display: block;
+            margin: auto;
+            width: 96px;
+            border: 1px solid #b69b67;
+            margin-bottom: 15px;
+        }
+    }
+    &__item-content {
+        width: 465px;
+        color: #b4b4b4;
+        font-family: 'Ubuntu Light';
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 49px;
+        text-align: center;
+        span {
+            text-transform: initial;
+        }
+        &:first-child {
+            width: 220px;
+        }
+        
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+}
